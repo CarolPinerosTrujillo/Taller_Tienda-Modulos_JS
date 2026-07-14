@@ -1,12 +1,13 @@
 //USUARIO
 
 class Usuario {
-    constructor(nombre, email, esvIP) {
+    constructor(nombre, email, esVip) {
         this.nombre = nombre; 
         this.email =email ;
         this.esVip =esVip ;
 
     }
+    
 
     saludo(){
         return `Hola ${this.nombre}`
